@@ -1,0 +1,25 @@
+{
+  "name": "lab-munir",
+  "version": "0.0.1",
+  "description": "Lab 9",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Munir Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2",
+    "superagent": "^3.5.2"
+  },
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "uuid": "^3.1.0"
+  }
+}
